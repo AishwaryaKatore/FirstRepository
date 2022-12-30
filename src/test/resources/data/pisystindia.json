@@ -1,0 +1,50 @@
+{
+	"valid_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":"1245667"
+		},
+	
+	"Blank_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":""
+		},
+	
+	"SpecialCharacter_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":"#$%"
+		},
+	
+	"DoubleSpace_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":"  "
+		},
+	
+	"LessThanThreeChar_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":"aa"
+		},
+	
+	"MoreThanThreeChar_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":"987654"
+		},
+	
+	"NumericalandSpecialChar_data":
+		{
+		"Email":"mainhub@gmail.com",
+	    "Password":"123456",
+	    "CouponCode":"124@12$"
+		}
+}

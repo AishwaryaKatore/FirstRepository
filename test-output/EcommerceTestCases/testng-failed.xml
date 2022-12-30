@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcommerceTestCases]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://products.pisystindia.com/Ecommerce/admin/login"/>
+  <test name="EcommerceTestCases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://products.pisystindia.com/Ecommerce/admin/login"/>
+    <classes>
+      <class name="TestCase.EcommerceTestCases">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="ValidData"/>
+        </methods>
+      </class> <!-- TestCase.EcommerceTestCases -->
+    </classes>
+  </test> <!-- EcommerceTestCases(failed) -->
+</suite> <!-- Failed suite [EcommerceTestCases] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [pisystindiaTestCases]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://xlogist.pisystindia.com/mainhub/login"/>
+  <test name="pisystindiaTestCases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://xlogist.pisystindia.com/mainhub/login"/>
+    <classes>
+      <class name="TestCase.pisystindiaTestCases">
+        <methods>
+          <include name="ValidData"/>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="afterclass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.pisystindiaTestCases -->
+    </classes>
+  </test> <!-- pisystindiaTestCases(failed) -->
+</suite> <!-- Failed suite [pisystindiaTestCases] -->

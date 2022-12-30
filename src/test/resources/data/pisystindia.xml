@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="pisystindiaTestCases" verbose="1">
+    <test name="pisystindiaTestCases">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://xlogist.pisystindia.com/mainhub/login"/>
+        <classes>
+        <class name="TestCase.pisystindiaTestCases"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
