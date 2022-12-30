@@ -77,10 +77,10 @@ public class PO_Ecommerce {
 	   }
 
 
-	 public void valid_data(String Email,String Password,String Image  )
+	 public void valid_data(String email,String Password,String Image  )
 		{
 			try {
-				Email(Email);
+				Email(email);
 				Password(Password);
 				signIn();
 				Product();
